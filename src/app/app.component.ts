@@ -11,4 +11,11 @@ import { RouterOutlet } from '@angular/router';
 
 export class AppComponent {
   title = 'TaskTrackr';
+  
+  // Define the tasks array
+  tasks: string[] = [
+    'Task 1',
+    'Task 2',
+    'Task 3'
+  ];
 }
